@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nama"/>
+    <EditText
+        android:id="@+id/input_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Alamat"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Cancle"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
